@@ -14,8 +14,8 @@ function App() {
       .catch((err) => console.error(err));
   }, []);
   return (
-    <div className="p-8 flex flex-col items-center">
-      <h3 className="inline-flex text-3xl font-bold bg-slate-400 text-black px-6 py-3 rounded shadow">
+    <div className="p-2 flex flex-col items-center">
+      <h3 className="inline-flex text-2xl font-bold bg-slate-400 text-black px-6 py-3 rounded shadow">
         Product Ratings & Reviews
       </h3>
 
